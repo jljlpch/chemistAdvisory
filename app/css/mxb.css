@@ -1,0 +1,111 @@
+*{margin: 0;padding: 0;}
+a:link {color:#000000;text-decoration:none;} /* 没访问过的链接样式 */
+a:visited {color:#000000;text-decoration:none;} /* 访问过的链接样式 */
+a:hover {color:#000000;text-decoration:none;} /* 鼠标进入链接区域的链接样式 */
+a:active {color:#000000;text-decoration:none;} /* 点击链接时的链接样式 */
+img[alt="QQ登录"]{width: 45px;height: 45px;border-radius: 100%;}
+.login input:focus,.register input:focus,.find input:focus{border:none;outline: none;}
+.bb{border-bottom: 1px solid #D3D3D3;}/* border-bottom下边线 */
+.br{border-right: 1px solid #D3D3D3;}/* border-right右边线 */
+.bl{border-left: 1px solid #D3D3D3;}
+.bt{border-top: 1px solid #D3D3D3;}
+.b{border: 1px solid #D3D3D3!important;}/* border全部线 */
+.bb-green{border-bottom: 2px solid #33c4da;}/*绿色下边线*/
+.b-null{border:none;}
+.btn{border-radius: 4px;display: inline-block;border:none;color:#FFFFFF;}
+.block{display: block;}
+.bg-primary{background-color: #2CADEF;}
+.bg-lightgray{background-color:#f4f4f4;}
+.bg-gray{background-color: #D3D3D3;pointer-events: none;}
+.bg-white{background-color: #FFFFFF;}
+.bg-green{background-color: #33c4da;}
+.online-green{background-color:#b3d53d;}
+.bg-red{background-color: #f55b5b}
+.block-center{margin: 0 auto;}
+.confirm-code{top: -7px;position: absolute;height: 32px;line-height: 32px;width: 70%;border-radius: 4px;left: 15px;color: #A7D445;border:1px solid #A7D445;font-size: 14px;}
+.confirm-code-active{top: -7px;position: absolute;height: 32px;line-height: 32px;width: 70%;left: 15px;color: #CDCDCD;background-color: #E8E8E8;border-radius: 4px;font-size: 18px;}
+.circle{border-radius: 100%;}
+.col-1{width: 8.3333%;}
+.col-2{width: 16.6666%;}
+.col-3{width: 25%;}
+.col-4{width: 33.3333%;}
+.col-5{width: 41.6666%;}
+.col-6{width: 50%;}
+.col-7{width: 58.3333%;}
+.col-8{width: 66.6666%;}
+.col-9{width: 75%;}
+.col-10{width: 83.3333%;}
+.col-11{width: 91.6666%;}
+.col-12{width: 100%;}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-9,.col-10,.col-11,.col-12{float: left;box-sizing: border-box;}
+.clear{clear:both;}
+.dot-style{padding: 0 30%;text-align: center;overflow: hidden;display: block;background-color: white;}
+.dot-style li{float: left;list-style: none;width: 33.33%}
+.dot-style button:focus{outline: none;}
+.dot-style button{font-size: 0px;width: 15px;height: 15px;border-radius: 100%;border: 2px solid #D3D3D3;color: white;background-color: white;}
+.divide-10{height: 10px;}/* 分割块元素 赋给空div*/
+.details{white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}/*不能换行，后面是省略号*/
+.floor{background-color: #F4F4F4;}
+.fz-10{font-size: 10px;}
+.fz-12{font-size: 12px;}/*small*/
+.fz-14{font-size: 14px;}/*little small*/
+.fz-16{font-size: 16px;}/*nomal*/
+.ht-20{height: 20px;}
+.ht-25{height: 25px;}
+.ht-26{height: 26px;}
+.ht-30{height: 30px;}
+.ht-40{height: 40px;}
+.ht-55{height: 55px;}
+.ht-60{height: 60px;}
+.ht-65{height: 65px;}
+.ht-120{height: 120px;}
+.hidden{display: none;}
+.i-block{display: inline-block;}
+.img-border{border:4px solid #FFFFFF;}
+.margin-t-10{margin-top:10px;}
+.margin-tb-10{margin:10px 0;}
+.msg-left{border-radius:4px;padding:7px;display: inline-block;background-color:#ffffff;font-size: 14px;position: relative; }
+.msg-left:before{width: 0;height: 0;right: 100%;content: ' ';position: absolute;border: solid transparent;border-width: 9px;border-right-color: #D3D3D3;top: 6px;}
+.msg-left:after{width: 0;height: 0;right: 100%;content: ' ';position: absolute;border: solid transparent;border-width: 8px;border-right-color: #fff;top: 7px;}
+.msg-right{border-radius:4px;padding:7px;display: inline-block;background-color:#ffffff;font-size: 14px;position: relative; }
+.msg-right:before{width: 0;height: 0;left: 100%;content: ' ';position: absolute;border: solid transparent;border-width: 9px;border-left-color: #D3D3D3;top: 6px;}
+.msg-right:after{width: 0;height: 0;left: 100%;content: ' ';position: absolute;border: solid transparent;border-width: 8px;border-left-color: #fff;top: 7px;}
+.overflow{overflow: hidden;}
+.padding-5{padding: 5px;}
+.padding-10{padding: 10px;}
+.padding-tb-5{padding: 5px 0;}
+.padding-tb-10{padding: 10px 0;}
+.padding-tb-20{padding: 20px 0;}
+.padding-lr-10{padding: 0 10px;}
+.padding-lr-15{padding: 0 15px;}
+.padding-l-10{padding-left:10px;}
+.padding-r-5{padding-right:5px;}
+.padding-r-10{padding-right:10px;}
+.padding-t-5{padding-top:5px;}
+.pull-left{float: left;}
+.pull-right{float: right;}
+.responsive{max-width: 100%;}
+.relative{position: relative;}
+.text-gray{color: #999999!important;}
+.text-orange{color:#fe9900!important;}
+.text-primary{color: #2CADEF!important;}
+.text-dark{color: #666666!important;}
+.text-white{color: #ffffff!important;}
+.text-green{color: #33c4da!important;}
+.text-black{color: #000000!important;}
+.text-blue{color: #33c4da!important;}
+.text-info{color: #4ebef7!important;}
+.text-success{color: #73c034!important;}
+.text-warning{color: #fda341;}
+.text-error{color: #eb5984;}
+.text-center{text-align: center;}
+.vertical-center{position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);}/*垂直居中，父容器设置position：relative*/
+.remind-dot{position: absolute;height: 10px;width: 10px;display: block;top: 0;right: 0;background-color: #f55b5b;border-radius: 100%;}
+.message-dot{display: block;width: 15px;height: 15px;color: #ffffff;background-color: #f55b5b;border-radius: 100%;font-size: 12px;text-align: center;}
+
+
+
+
+
+
+
